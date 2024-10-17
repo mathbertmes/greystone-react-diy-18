@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.containerLabelAndInput{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.containerLabelAndInput input{
+  width: 100%;
+  padding: 8px;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+#wrapperForm{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.containerSubmit{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.submitButton{
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: 1px solid black;
+  background: transparent;
+  cursor: pointer;
+}
+
+.termsCheckBox{
+  cursor: pointer;
+}
+
